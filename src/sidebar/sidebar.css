@@ -1,0 +1,46 @@
+.sidebar{
+  margin: 10px;
+  padding: 10px;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fbfbfb;
+}
+
+.title{
+  text-align: center;
+  width: 85%;
+  margin: 10px;
+  padding: 5px;
+  font-family: "Varela Round", sans-serif;
+  color: #222;
+  font-size: 14px;
+  border-top: 1px solid #a7a4a4;
+  border-bottom: 1px solid #a7a4a4;
+}
+
+.sidebar img{
+  margin: 15px 0 ;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.sidebar p{
+  padding: 20px;
+}
+
+.categorie-list{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 15px 0;
+}
+
+.categorie-list li{
+text-align: center;
+}
+
